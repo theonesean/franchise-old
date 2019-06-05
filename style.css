@@ -1,0 +1,32 @@
+.hero--background-image {
+  background-image:url(img/hero.jpg);
+  background-size: cover;
+  background-position: center top;
+  height: 400px;
+  position: relative;
+  width: auto;
+}
+
+.hero--action-bar {
+  background: rgba(0, 0, 0, .4);
+  bottom: 0;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.hero--action-bar .row {
+  /* FLEX BOX: center vertically, justify columns to left and right of row
+  * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  */
+  align-items: center;
+}
+
+.zipcode-column--form {
+  text-align: right;
+}
+
+.zipcode-column i {
+  color: #8fc740;
+}
