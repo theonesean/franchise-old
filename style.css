@@ -30,3 +30,30 @@
 .zipcode-column i {
   color: #8fc740;
 }
+
+.form-zipcode {
+
+}
+
+.form-zipcode i {
+  color: white;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.form-zipcode input {
+  display: inline-block !important;
+  max-width: 240px;
+}
+
+.form-zipcode button {
+  margin-left: 5px;
+}
+
+.nav-img {
+  max-width: 200px;
+}
+
+.tel-link {
+  color: #FFFFFF;
+}
